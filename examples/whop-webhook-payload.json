@@ -1,0 +1,17 @@
+{
+  "id": "evt_test",
+  "type": "subscription.created",
+  "data": {
+    "id": "sub_test",
+    "user": {
+      "id": "user_test",
+      "email": "user@example.com"
+    },
+    "metadata": {
+      "login": "12345678",
+      "investor_password": "secret",
+      "broker_server": "TestBroker",
+      "platform": "mt4"
+    }
+  }
+}
