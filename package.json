@@ -1,0 +1,22 @@
+{
+  "name": "whop-metaapi-integration",
+  "version": "1.0.0",
+  "description": "Integration between Whop payment system and MetaApi copy trading",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel deploy --prod"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "raw-body": "^2.5.2"
+  },
+  "devDependencies": {
+    "vercel": "^32.5.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": "",
+  "license": "MIT"
+}
